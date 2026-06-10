@@ -1,59 +1,58 @@
-# Welcome to your Expo app 👋
+# 📚 LMS Mobile App
 
+A modern, feature-rich Learning Management System (LMS) mobile application built with React Native and Expo. Browse courses, bookmark favorites, track your progress, and learn on the go!
 
-heloooo there
+## 🚀 Features
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+### Core Features
+- **Course Discovery** - Browse through a wide range of courses with advanced search
+- **Course Details** - View comprehensive course information including curriculum, instructor details, and reviews
+- **Bookmark System** - Save courses for later with bookmark reminders
+- **User Profiles** - Track your learning progress and enrolled courses
+- **Settings** - Customize app preferences (notifications, dark mode, auto-play)
 
-## Get started
+### Key Functionality
+- 🔍 **Smart Search** - Find courses by title, instructor, or keywords
+- ❤️ **Interactive Bookmarks** - One-click save with visual feedback
+- 📊 **Progress Tracking** - Monitor your course completion
+- 🎓 **Instructor Profiles** - Learn from industry experts
+- 📱 **Responsive Design** - Works perfectly on both iOS and Android
+- 🎨 **Modern UI** - Clean, professional design with smooth animations
 
-1. Install dependencies
+## 🛠️ Tech Stack
 
-   ```bash
-   npm install
-   ```
+### Frontend
+- **React Native** (0.85.3) - Mobile framework
+- **Expo** (56.0.9) - Development platform
+- **Expo Router** - File-based navigation
+- **TypeScript** - Type safety
 
-2. Start the app
+### State Management & Data
+- **Zustand** - State management
+- **AsyncStorage** - Local data persistence
+- **Axios** - API requests
 
-   ```bash
-   npx expo start
-   ```
+### UI Components
+- **Lucide React Native** - Icons
+- **React Native Safe Area Context** - Safe area handling
+- **React Native Gesture Handler** - Touch interactions
+- **React Native Reanimated** - Smooth animations
 
-In the output, you'll find options to open the app in a
+### Notifications
+- **Expo Notifications** - Push notifications
+- **Expo Device** - Device information
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 📦 Installation
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### Prerequisites
+- Node.js (v18 or later)
+- npm or yarn
+- Expo CLI
+- iOS Simulator (for Mac) or Android Emulator
 
-## Get a fresh project
+### Step-by-Step Setup
 
-When you're ready, run:
-
+1. **Clone the repository**
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-### Other setup steps
-
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+git clone https://github.com/yourusername/lms-mobile-app.git
+cd lms-mobile-app
